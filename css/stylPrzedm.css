@@ -1,0 +1,31 @@
+:root{
+	--main-text-color: #7a85ff;//#ED4E00;
+	--main-line-color: #eeeeee;
+	--hover-text-color: #cacefa;
+	--hover-background-color: #3d3e4a;
+}
+main h2{
+	padding: 5px 0;
+}
+main ol li {
+	padding: 7px 0;
+}
+main ol{
+	list-style-type: upper-roman;
+	list-style-position: outside;
+	padding: 0 0 0 20px;
+}
+main ol li ul{
+	list-style-type: circle;
+	list-style-position: outside;
+	padding: 0 0 0 20px;
+}
+main ol li a{
+	color: var(--main-text-color);
+	text-decoration: none;
+	padding: 3px 7px;
+}
+main ol li a:hover{
+	color: var(--hover-text-color);
+	background: var(--hover-background-color);
+}
