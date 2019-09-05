@@ -11,6 +11,12 @@
       "css": "attention-alt",
       "code": 59392,
       "src": "mfglabs"
+    },
+    {
+      "uid": "aa0d9175a3919a260a4012d560e9f01e",
+      "css": "right-hand",
+      "code": 59393,
+      "src": "fontawesome"
     }
   ]
 }
