@@ -12,11 +12,6 @@ function info(){
 	let s = date.getSeconds(); // 0 - 59
 	let d = date.getDay();
 	
-	d=2;
-	h=12;
-	m=25;
-	
-	
 	//wyświetlamy czas
 	let czas = (h < 10) ? "0" + h : h;
 	czas += ":";
