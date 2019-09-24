@@ -1,5 +1,5 @@
 :root{
-	--main-text-color: rgb(250, 252, 164);
+	--main-text-color: #d6d9fd;
 	--header-text-color: #979fff;
 	--header-text-lightcolor: #d6d9fd;
 	--main-line-color: #eeeeee;
@@ -94,6 +94,7 @@ header div[id^="lekcja"]{
 }
 #info table td{
 	border-bottom: 1px solid var(--subtle-line);
+	vertical-align: text-top;
 }
 .war-red{
 	color:red;
@@ -109,6 +110,7 @@ header div[id^="lekcja"]{
 #przedmioty li a h3{
 	text-align: center;
 	margin: 10px auto 3px auto;
+	letter-spacing: 2px;
 }
 
 #przedmioty li a img{
