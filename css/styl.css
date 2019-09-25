@@ -36,6 +36,9 @@ header #logo h1 span{
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 4rem;
 }
+header #motto{
+	display: none;
+}
 header #zegar{
 	display: inline-block;
 	padding: 3px 15px 0px;
@@ -61,6 +64,9 @@ header div[id^="lekcja"]{
 	width: 95%;
 	margin: 0 auto;
 }
+main a{
+	color: var(--header-text-lightcolor);
+}
 #przedmioty{
 	padding: 10px 0;
 	border-top: 1px solid var(--subtle-line);
@@ -75,7 +81,6 @@ header div[id^="lekcja"]{
 	padding: 0;
 }
 #przedmioty li a{
-	color: var(--main-text-color);
 	text-decoration: none;
 	display: block;
 	border: 2px solid var(--main-line-color);
@@ -106,6 +111,22 @@ header div[id^="lekcja"]{
 }
 
 @media screen and (min-width: 600px) {
+	
+header #logo{
+	float: left;
+}
+header #motto{
+	display: block;
+	float: right;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.0rem;
+	color: var(--header-text-lightcolor);
+	padding: 10px 0;
+}
+header #motto h2{
+	font-size: 0.9rem;
+}
+
 
 #przedmioty li a h3{
 	text-align: center;
