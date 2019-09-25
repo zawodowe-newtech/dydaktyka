@@ -121,7 +121,7 @@ header #motto{
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 1.0rem;
 	color: var(--header-text-lightcolor);
-	padding: 10px 0;
+	padding: 10px 1px;
 }
 header #motto h2{
 	font-size: 0.9rem;
